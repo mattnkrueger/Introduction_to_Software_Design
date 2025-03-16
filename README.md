@@ -8,7 +8,10 @@ This course was taught by Professor Thomas Casavant
 
 ## Repository Structure
 
-This repository is organized into separate project directories, each containing its own implementation of a specific programming concept or application. Each project includes:
+This repository is organized into separate project directories:
+
+1. [Exam Projects](./exam_projects/)
+2. [Final Project](./final_project/README.md)
 
 - README documentation
 - Javadoc directory
@@ -35,3 +38,5 @@ This repository is organized into separate project directories, each containing 
 ## ⚠️ Important Note!
 
 The projects contained inside this repository are Java projects. Please be aware that I did not include any configuration files that could be easily ported to IDEs such as IntelliJ. You will need to set up your own project configuration if you wish to import these projects into an IDE.
+ 
+Additionally, many of the links may point to gitlab pages - which you will likely not be able to access.
