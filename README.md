@@ -13,6 +13,7 @@ This repository is organized into separate project directories:
 1. [Exam Projects](./exam_projects/)
 2. [Final Project](./final_project/README.md)
 
+Contents of each project:
 - README documentation
 - Javadoc directory
 - Source code
