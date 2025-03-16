@@ -21,20 +21,23 @@ Contents of each project:
 
 ## Exam Projects
 
-- [Rational Numbers](rational_numbers/README.md)
-- [Hangman](hangman/README.md)
-- [Bouncing Balls](bouncing_balls/README.md)
-- [Networked Binary Tree](networked_binary_tree/README.md)
-- [Computus](computus/README.md)
-- [Game Engine](game_engine/README.md)
-- [Tic-Tac-Toe CLI](tic_tac_toe_cli/README.md)
-- [Tic-Tac-Toe GUI](tic_tac_toe_gui/README.md)
-- [Wordle GUI](wordle_gui/README.md) (this one is cool)
-- [Merge Sort](merge_sort/README.md)
+These projects are listed alphabetically, but note they belong to exams described in [Exam Projects](./exam_projects/).
+
+- [Bouncing Balls](exam_projects/bouncing_balls/README.md)
+- [Computus](exam_projects/computus/README.md)
+- [Game Engine](exam_projects/game_engine/README.md)
+- [Hangman CLI](exam_projects/hangman_cli/README.md)
+- [Hangman GUI](exam_projects/hangman_gui/README.md)
+- [Merge Sort](exam_projects/merge_sort/README.md)
+- [Networked Binary Tree](exam_projects/networked_binary_tree/README.md)
+- [Rational Numbers](exam_projects/rational_numbers/README.md)
+- [Tic-Tac-Toe CLI](exam_projects/tic_tac_toe_cli/README.md)
+- [Tic-Tac-Toe GUI](exam_projects/tic_tac_toe_gui/README.md)
+- [Wordle GUI](exam_projects/wordle_gui/README.md) (this one is cool)
 
 ## Final Project
 
-- [Final Project](final_project/README.md) (also cool)
+- [Final Project](final_project/who_wants_to_be_a_millionaire/README.md) (also cool)
 
 ## ⚠️ Important Note!
 
