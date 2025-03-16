@@ -119,15 +119,9 @@ Our solution for this program involves many classes. See the UML and MTS for bet
 </div>
 
 ## Win and Loss Displays
-<div align="center" style="display: flex; justify-content: space-around;">
-  <div>
-    <h3>Win Display</h3>
-    <img src="./who_wants_to_be_a_millionaire/img/2.png" alt="Win Display" width="300"/>
-  </div>
-  <div>
-    <h3>Loss Display</h3>
-    <img src="./who_wants_to_be_a_millionaire/img/loss.png" alt="Loss Display" width="300"/> 
-  </div>
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 10px;">
+   <img src="./who_wants_to_be_a_millionaire/img/win.jpg" alt="Win Display" width="300"/>
+   <img src="./who_wants_to_be_a_millionaire/img/loss.png" alt="Loss Display" width="300"/> 
 </div>
 
 ## Source Code
