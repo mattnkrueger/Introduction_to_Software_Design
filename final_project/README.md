@@ -109,25 +109,13 @@ Our solution for this program involves many classes. See the UML and MTS for bet
 ![image](./who_wants_to_be_a_millionaire/img/1.png)
 
 ## MTS Architecture and Startup 
-<div style="display: grid; grid-template-rows: repeat(2, 1fr); grid-template-columns: repeat(3, 1fr); gap: 10px;">
-  <div>
-    <img src="./who_wants_to_be_a_millionaire/img/2.png" width="500" height="300">
-  </div>
-  <div>
-    <img src="./who_wants_to_be_a_millionaire/img/3.png" width="300" height="300">
-  </div>
-  <div>
-    <img src="./who_wants_to_be_a_millionaire/img/4.png" width="300" height="300">
-  </div>
-  <div>
-    <img src="./who_wants_to_be_a_millionaire/img/5.png" width="300" height="300">
-  </div>
-  <div>
-    <img src="./who_wants_to_be_a_millionaire/img/6.png" width="300" height="300">
-  </div>
-  <div>
-    <img src="./who_wants_to_be_a_millionaire/img/7.png" width="300" height="300">
-  </div>
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 10px;">
+  <img src="./who_wants_to_be_a_millionaire/img/2.png" width="300" height="300">
+  <img src="./who_wants_to_be_a_millionaire/img/3.png" width="300" height="300">
+  <img src="./who_wants_to_be_a_millionaire/img/4.png" width="300" height="300">
+  <img src="./who_wants_to_be_a_millionaire/img/5.png" width="300" height="300">
+  <img src="./who_wants_to_be_a_millionaire/img/6.png" width="300" height="300">
+  <img src="./who_wants_to_be_a_millionaire/img/7.png" width="300" height="300">
 </div>
 
 ## Win and Loss Displays
