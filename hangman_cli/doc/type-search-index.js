@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"gameCLI","l":"GameStatsCLI"},{"p":"gameCLI","l":"GuessCLI"},{"p":"<Unnamed>","l":"Main"},{"p":"gameCLI","l":"RoundCLI"},{"p":"gameCLI","l":"WordBankCLI"}];updateSearchResults();

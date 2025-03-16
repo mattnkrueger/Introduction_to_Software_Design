@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"game"},{"l":"spellcheck"},{"l":"wordleGUI"},{"l":"wordleGUI.controllers"},{"l":"wordleGUI.utils"}];updateSearchResults();

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<!-- FXML FILE: mainProgram.fxml -->
+<!-- this file handles the navbar & footer functionality by using a BorderPane to manage the fxml showing on the page -->
+<!-- BorderPane TOP: navbar -->
+<!-- BorderPane CENTER: main content -->
+<!-- BorderPane Bottom: footer -->
+<!-- Please refer to MainProgramController as this is where the BorderPane is initialized -->
+<BorderPane
+        xmlns:fx="http://javafx.com/fxml"
+        fx:controller="wordleGUI.controllers.MainProgramController">
+
+    <!-- TOP: navbar   -->
+    <top>
+        <Pane fx:id="borderPaneTop"/>
+    </top>
+
+    <!-- TOP: mainContent-->
+    <center>
+        <Pane fx:id="borderPaneCenter"/>
+    </center>
+
+    <!-- TOP: footer -->
+    <bottom>
+        <Pane fx:id="borderPaneBottom"/>
+    </bottom>
+
+</BorderPane>
+

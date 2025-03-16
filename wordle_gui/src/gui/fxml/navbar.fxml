@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="600.0" style="-fx-background-color: lightgray; -fx-border-color: transparent transparent black transparent;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+<!--        fx:controller="wordleGUI.controllers.MainProgramController">-->
+    <children>
+        <GridPane hgap="5.0" prefHeight="50.0" prefWidth="600.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="244.0" minWidth="10.0" prefWidth="244.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="94.0" minWidth="0.0" prefWidth="0.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="93.0" minWidth="0.0" prefWidth="32.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="SWD | S52_WordleGUI_Hard" textAlignment="CENTER" wrappingWidth="286.12028339505196">
+                    <font>
+                        <Font name="System Bold" size="16.0" />
+                    </font>
+                </Text>
+                <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3">
+                    <children>
+                        <Button fx:id="homeButton" layoutX="-1.0" layoutY="10.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="96.0" style="-fx-background-color: white; -fx-text-fill: black;" text="Home" textAlignment="CENTER">
+                            <font>
+                                <Font size="11.0" />
+                            </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                            <graphic>
+                                <ImageView fitHeight="24.0" fitWidth="24.0">
+                                    <image>
+                                        <Image url="@../resources/navbar/home_icon.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                        </Button>
+                    </children>
+                </Pane>
+                <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4">
+                    <children>
+                        <Button fx:id="helpButton" layoutX="-1.0" layoutY="10.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="96.0" style="-fx-background-color: white; -fx-text-fill: black;" text="Help" textAlignment="CENTER">
+                            <font>
+                                <Font size="11.0" />
+                            </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                            <graphic>
+                                <ImageView fitHeight="24.0" fitWidth="24.0">
+                                    <image>
+                                        <Image url="@../resources/navbar/question_icon.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                        </Button>
+                    </children>
+                </Pane>
+                <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="5">
+                    <children>
+                        <Button fx:id="exitButton" layoutX="-1.0" layoutY="10.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="96.0" style="-fx-background-color: white; -fx-text-fill: black;" text="Exit" textAlignment="CENTER">
+                            <font>
+                                <Font size="11.0" />
+                            </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                            <graphic>
+                                <ImageView fitHeight="24.0" fitWidth="24.0">
+                                    <image>
+                                        <Image url="@../resources/exit_icon_gameOver.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                        </Button>
+                    </children>
+                </Pane>
+            </children>
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+            <padding>
+                <Insets right="10.0" />
+            </padding>
+        </GridPane>
+    </children>
+</AnchorPane>

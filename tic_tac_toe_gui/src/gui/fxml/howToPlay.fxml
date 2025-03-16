@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.controllers.HowToPlayController">
+   <children>
+      <GridPane alignment="CENTER" prefHeight="400.0" prefWidth="600.0">
+         <columnConstraints>
+            <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" maxWidth="195.0" minWidth="0.0" prefWidth="140.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="518.0" minWidth="10.0" prefWidth="418.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="143.0" minWidth="0.0" prefWidth="140.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="166.0" minHeight="0.0" prefHeight="76.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="369.0" minHeight="0.0" prefHeight="256.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="266.0" minHeight="0.0" prefHeight="68.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: black;" text="How To Play - game" textAlignment="CENTER" wrappingWidth="384.21630859375" GridPane.columnIndex="1">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Text>
+            <Button fx:id="backToGame" alignment="TOP_CENTER" mnemonicParsing="false" onAction="#switchBackToGame" prefHeight="31.0" prefWidth="317.0" style="-fx-background-color: white; -fx-text-fill: black; -fx-border-radius: 5; -fx-border-color: black; -fx-effect: none;" text="Play Tic-Tac-Toe" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font size="11.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="24.0">
+                     <image>
+                        <Image url="@../resources/play_icon.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <VBox alignment="CENTER" prefHeight="234.0" prefWidth="385.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="- Draw a 3x3 grid of squares." wrappingWidth="384.98193359375">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+                  <Pane prefHeight="19.0" prefWidth="386.0" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="- Each tile represents a move, with either 'X' or 'O'" wrappingWidth="383.4697265625">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="filling its space to claim the tile." wrappingWidth="385.02392578125">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+                  <Pane prefHeight="19.0" prefWidth="386.0" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="- Have the first player go first " wrappingWidth="382.3583984375">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="The first player places a 'X' in a  tile." wrappingWidth="380.0751953125">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+                  <Pane prefHeight="19.0" prefWidth="386.0" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="- Have the second player go second." wrappingWidth="383.2998046875">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="The second player places an 'O' in a remaining tile." wrappingWidth="382.03662109375">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+                  <Pane prefHeight="19.0" prefWidth="386.0" />
+                  <Pane prefHeight="19.0" prefWidth="386.0" />
+                  <Text layoutX="11.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Keep alternating moves until one of the players has " wrappingWidth="383.2998046875">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="12.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="drawn a row of three symbols or until no one can win." wrappingWidth="382.03662109375">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+                  <Pane layoutX="10.0" layoutY="204.0" prefHeight="19.0" prefWidth="386.0" />
+                  <Pane layoutX="10.0" layoutY="223.0" prefHeight="19.0" prefWidth="386.0" />
+                  <Text fill="#808080" strokeType="OUTSIDE" strokeWidth="0.0" text="Rules Attribution:  Play Tic-Tac-Toe | WikiHow" textAlignment="CENTER" wrappingWidth="376.19007110595703">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+               </children>
+            </VBox>
+            <Pane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Text fill="#838383" layoutX="86.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: -8;" text="O" wrappingWidth="5.571796894073486" />
+                  <ImageView fitHeight="20.0" fitWidth="22.0" layoutX="32.0" layoutY="17.0" opacity="0.5" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: -30;">
+                     <image>
+                        <Image url="@../resources/grid.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="#838383" layoutX="34.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: 17;" text="X" wrappingWidth="15.213281079604485" />
+               </children>
+            </Pane>
+            <Pane nodeOrientation="RIGHT_TO_LEFT" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
+               <children>
+                  <Text fill="#838383" layoutX="68.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: 15;" text="o" wrappingWidth="15.213281079604485" />
+                  <Text fill="#838383" layoutX="25.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: -20;" text="X" wrappingWidth="15.213281079604485" />
+                  <Text fill="#838383" layoutX="79.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: -40;" text="x" wrappingWidth="15.213281079604485" />
+                  <Text fill="#838383" layoutX="34.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: -12;" text="X" wrappingWidth="15.213281079604485" />
+                  <Text fill="#838383" layoutX="73.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: 30;" text="O" />
+                  <ImageView fitHeight="20.0" fitWidth="22.0" layoutX="13.0" layoutY="3.0" opacity="0.5" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: -30;">
+                     <image>
+                        <Image url="@../resources/grid.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="20.0" fitWidth="22.0" layoutX="8.0" layoutY="118.0" opacity="0.5" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 5;">
+                     <image>
+                        <Image url="@../resources/grid.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="20.0" fitWidth="22.0" layoutX="68.0" layoutY="232.0" opacity="0.5" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 10;">
+                     <image>
+                        <Image url="@../resources/grid.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="20.0" fitWidth="22.0" layoutX="37.0" layoutY="172.0" opacity="0.5" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 56;">
+                     <image>
+                        <Image url="@../resources/grid.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane nodeOrientation="RIGHT_TO_LEFT" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2">
+               <children>
+                  <Text fill="#838383" layoutX="25.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: 15;" text="o" wrappingWidth="15.213281079604485" />
+                  <Text fill="#838383" layoutX="78.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: -20;" text="O" wrappingWidth="15.213281079604485" />
+                  <Text fill="#838383" layoutX="48.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: 65;" text="x" wrappingWidth="15.213281079604485" />
+               </children>
+            </Pane>
+            <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <children>
+                  <Text fill="#838383" layoutX="44.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: -23;" text="O" wrappingWidth="15.213281079604485" />
+                  <ImageView fitHeight="20.0" fitWidth="22.0" layoutX="20.0" layoutY="10.0" opacity="0.5" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 13;">
+                     <image>
+                        <Image url="@../resources/grid.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="20.0" fitWidth="22.0" layoutX="74.0" layoutY="32.0" opacity="0.5" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: -50;">
+                     <image>
+                        <Image url="@../resources/grid.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <children>
+                  <Text fill="#838383" layoutX="53.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: -23;" text="O" wrappingWidth="15.213281079604485" />
+                  <Text fill="#838383" layoutX="24.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: 10;" text="o" wrappingWidth="15.213281079604485" />
+                  <Text fill="#838383" layoutX="74.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: -10;" text="x" wrappingWidth="15.213281079604485" />
+                  <Text fill="#838383" layoutX="58.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: -23;" text="x" wrappingWidth="5.571796894073486" />
+                  <Text fill="#838383" layoutX="16.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: -6;" text="X" wrappingWidth="15.213281079604485" />
+                  <Text fill="#838383" layoutX="53.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: 20;" text="o" wrappingWidth="15.213281079604485" />
+                  <Text fill="#838383" layoutX="12.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: -6;" text="O" wrappingWidth="15.213281079604485" />
+                  <ImageView fitHeight="20.0" fitWidth="22.0" layoutX="12.0" layoutY="36.0" opacity="0.5" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 10;">
+                     <image>
+                        <Image url="@../resources/grid.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="20.0" fitWidth="22.0" layoutX="56.0" layoutY="100.0" opacity="0.5" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 50;">
+                     <image>
+                        <Image url="@../resources/grid.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane prefHeight="76.0" prefWidth="94.0" GridPane.columnIndex="2">
+               <children>
+                  <Text fill="#838383" layoutX="1.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: -15;" text="O" wrappingWidth="15.213281079604485" />
+                  <Text fill="#838383" layoutX="73.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: -13;" text="X" wrappingWidth="15.213281079604485" />
+                  <Text fill="#838383" layoutX="5.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: 20;" text="x" wrappingWidth="15.213281079604485" />
+                  <ImageView fitHeight="20.0" fitWidth="22.0" layoutX="44.0" layoutY="37.0" opacity="0.5" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: -200;">
+                     <image>
+                        <Image url="@../resources/grid.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </GridPane>
+   </children>
+</AnchorPane>
