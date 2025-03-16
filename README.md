@@ -34,7 +34,7 @@ Contents of each project:
 
 ## Final Project
 
-- [Final Project](final_project/README.md) (so is this one)
+- [Final Project](final_project/README.md) (also cool)
 
 ## ⚠️ Important Note!
 
