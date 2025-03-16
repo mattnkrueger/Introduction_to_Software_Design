@@ -1,10 +1,9 @@
 # ECE:3330 Software Design Repository (Fall 2024)
+**Instructor:** Professor Thomas Casavant, University of Iowa
 
 ## Description
 
 This repository contains projects for the Introduction to Software Design course. The course covers fundamental concepts of object-oriented programming in Java, including classes, inheritance, polymorphism, GUI development, multithreading, file I/O, networking, and database connectivity.
-
-This course was taught by Professor Thomas Casavant
 
 ## Repository Structure
 
